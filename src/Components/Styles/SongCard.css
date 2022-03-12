@@ -1,0 +1,35 @@
+.song--card {
+    display: flex;
+    width: 70%;
+    background-color: transparent;
+    margin: 7px auto;
+    padding: 3px;
+}
+
+.song--card--info {
+    font-family: var(--principal-font);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.song--card--cover {
+    margin-right: 10px;
+}
+
+.card--info--title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card--info--artist {
+    font-size: 13px;
+}
+
+img {
+    height: 50px;
+}
+
+.song--card:hover {
+    background-color: var(--hover-background);
+}

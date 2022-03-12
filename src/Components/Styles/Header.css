@@ -1,0 +1,15 @@
+.navbar {
+    background-color: var(--secondary-color);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-left: 5px;
+    font-family: var(--principal-font);
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--principal-color);
+}
