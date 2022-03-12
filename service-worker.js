@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SpotiSearch/precache-manifest.f675ab4d2c48c5c6095e5bb0c8a0fd7d.js"
+  "/SpotiSearch/precache-manifest.9a5a89d7e68134de3469382053a627d1.js"
 );
 
 workbox.clientsClaim();

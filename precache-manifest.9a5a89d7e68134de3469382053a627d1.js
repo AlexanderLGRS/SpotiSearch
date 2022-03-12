@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "83d18dfd77822f70d469",
-    "url": "/SpotiSearch/static/css/main.eb86b2d0.chunk.css"
+    "revision": "b3f36aec903747a03f3f",
+    "url": "/SpotiSearch/static/css/main.8cdd706c.chunk.css"
   },
   {
-    "revision": "83d18dfd77822f70d469",
-    "url": "/SpotiSearch/static/js/main.17d9c6b8.chunk.js"
+    "revision": "b3f36aec903747a03f3f",
+    "url": "/SpotiSearch/static/js/main.87f13c56.chunk.js"
   },
   {
     "revision": "e19ebb55f75b1f01f41a",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/SpotiSearch/static/media/Background2.4de1daf1.jpg"
   },
   {
-    "revision": "e695f93f57554a418d77b56dff930ba9",
+    "revision": "161add16a862316b3a196b18a7f59564",
     "url": "/SpotiSearch/index.html"
   }
 ];
