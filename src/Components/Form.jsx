@@ -17,7 +17,7 @@ export default function Form(props) {
             <form className="form" onSubmit={submitHandler}>
                 <label className="form--label" htmlFor="input--song">Search your songs
                 </label>
-                <input id="input--song" className="form--input" type="text" placeholder="Artist, songs or podcast" required onChange={termChangeHandler} />
+                <input id="input--song" className="form--input" type="text" placeholder="Artist or songs" required onChange={termChangeHandler} />
                 <button className="form--button" type="submit">Search</button>
             </form>
         </React.Fragment>

@@ -1,4 +1,4 @@
-.song--card {
+.songCard {
     display: flex;
     width: 70%;
     background-color: transparent;
@@ -6,14 +6,14 @@
     padding: 3px;
 }
 
-.song--card--info {
+.songCard--info {
     font-family: var(--principal-font);
     color: #fff;
     display: flex;
     flex-direction: column;
 }
 
-.song--card--cover {
+.songCard--cover {
     margin-right: 10px;
 }
 
@@ -30,6 +30,6 @@ img {
     height: 50px;
 }
 
-.song--card:hover {
+.songCard:hover {
     background-color: var(--hover-background);
 }

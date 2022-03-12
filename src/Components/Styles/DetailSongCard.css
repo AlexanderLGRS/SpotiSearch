@@ -1,0 +1,53 @@
+.detailCard {
+    position: fixed;
+    top: 25%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background-color: rgba(12, 12, 12, 0.9);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid var(--secondary-color);
+    color: #fff;
+    font-family: var(--principal-font);
+    text-transform: capitalize;
+}
+
+.detailCard--cover {
+    border-radius: 10px;
+    background-color: rebeccapurple;
+    height: 200px;
+    width: 200px;
+}
+
+.detailCard--title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.detailCard--artist {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.detailCard--albumType {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.detailCard--releaseDate {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hide {
+    display: none;
+}
+
+iframe {
+    display: none;
+}

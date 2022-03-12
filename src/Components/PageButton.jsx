@@ -8,8 +8,9 @@ export default function PageButton(props) {
     }
     return (
         <React.Fragment>
-            <a href="#cardContainer">
+            <a href="#buttonContainer">
                 <span className={`pageButton ${buttonClass}`} onClick={changePageHandler}>
+                <ion-icon size="large" name="chevron-forward-circle"></ion-icon>
                 </span>
             </a>
         </React.Fragment >

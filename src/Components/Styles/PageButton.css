@@ -1,20 +1,10 @@
 a .next {
-    background-image: url("https://img.icons8.com/material-rounded/24/000000/circled-chevron-right.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
     display: inline-block;
     background-size: cover;
 }
 
 a .prev {
-    background-image: url("https://img.icons8.com/material-rounded/24/000000/circled-chevron-right.png");
     rotate: 180deg;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
     display: inline-block;
     background-size: cover;
 }
@@ -22,4 +12,17 @@ a .prev {
 a .pageButton:hover {
     transform: scale(1.2);
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: var(--principal-color);
+}
+
+ion-icon {
+    cursor: pointer;
+}
+
+.pageButton {
+    height: 32px;
 }
