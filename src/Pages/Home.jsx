@@ -78,6 +78,7 @@ export default function Home() {
         setSelectedReleaseDate(data.releaseDate)
         setSelectedArtist(data.artist)
         setSelectedAudio(data.audio)
+        console.log(data.audio);
     }
     const hideHandler = () => {
         setVisibility('hide')

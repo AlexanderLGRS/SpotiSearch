@@ -1,7 +1,6 @@
 import React from "react";
 import './Styles/SongCard.css'
 
-let isExplicit = ''
 export default function SongCard(props) {
     const { cover, title, artist, albumType, releaseDate, audio } = props
 
@@ -12,7 +11,7 @@ export default function SongCard(props) {
             artist: artist,
             albumType: albumType,
             releaseDate: releaseDate,
-            audio: audio + '?cid=null'
+            audio: audio
         }
         props.onSelectSong(datos)
     }

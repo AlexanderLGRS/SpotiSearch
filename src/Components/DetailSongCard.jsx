@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './Styles/DetailSongCard.css'
 
 export default function DetailSongCard(props) {
@@ -17,7 +17,7 @@ export default function DetailSongCard(props) {
                 <div className="detailCard--albumType">{albumType}</div>
                 <div className="detailCard--releaseDate">{releaseDate}</div>
                 <div className="detailCard--artist">{artist}</div>
-                <iframe src={audio}  allow="encrypted-media"></iframe>
+                <iframe scrolling="no" src={`${audio}?cid=null`} allow="encrypted-media"></iframe>
             </div>
         </>
     )
