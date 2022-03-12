@@ -1,16 +1,16 @@
 {
-  "files": {
-    "main.css": "/SpotiSearch/static/css/main.b0c929b8.css",
-    "main.js": "/SpotiSearch/static/js/main.eea50d0d.js",
-    "static/js/787.70e64f45.chunk.js": "/SpotiSearch/static/js/787.70e64f45.chunk.js",
-    "static/media/Background2.jpg": "/SpotiSearch/static/media/Background2.ab89d47b5994c8fbcc4a.jpg",
-    "index.html": "/SpotiSearch/index.html",
-    "main.b0c929b8.css.map": "/SpotiSearch/static/css/main.b0c929b8.css.map",
-    "main.eea50d0d.js.map": "/SpotiSearch/static/js/main.eea50d0d.js.map",
-    "787.70e64f45.chunk.js.map": "/SpotiSearch/static/js/787.70e64f45.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.b0c929b8.css",
-    "static/js/main.eea50d0d.js"
-  ]
+  "main.css": "/SpotiSearch/static/css/main.eb86b2d0.chunk.css",
+  "main.js": "/SpotiSearch/static/js/main.17d9c6b8.chunk.js",
+  "main.js.map": "/SpotiSearch/static/js/main.17d9c6b8.chunk.js.map",
+  "runtime~main.js": "/SpotiSearch/static/js/runtime~main.6b3e0eb0.js",
+  "runtime~main.js.map": "/SpotiSearch/static/js/runtime~main.6b3e0eb0.js.map",
+  "static/js/2.ca6b1062.chunk.js": "/SpotiSearch/static/js/2.ca6b1062.chunk.js",
+  "static/js/2.ca6b1062.chunk.js.map": "/SpotiSearch/static/js/2.ca6b1062.chunk.js.map",
+  "static/js/3.50b2d2e5.chunk.js": "/SpotiSearch/static/js/3.50b2d2e5.chunk.js",
+  "static/js/3.50b2d2e5.chunk.js.map": "/SpotiSearch/static/js/3.50b2d2e5.chunk.js.map",
+  "index.html": "/SpotiSearch/index.html",
+  "precache-manifest.f675ab4d2c48c5c6095e5bb0c8a0fd7d.js": "/SpotiSearch/precache-manifest.f675ab4d2c48c5c6095e5bb0c8a0fd7d.js",
+  "service-worker.js": "/SpotiSearch/service-worker.js",
+  "static/css/main.eb86b2d0.chunk.css.map": "/SpotiSearch/static/css/main.eb86b2d0.chunk.css.map",
+  "static/media/App.css": "/SpotiSearch/static/media/Background2.4de1daf1.jpg"
 }
