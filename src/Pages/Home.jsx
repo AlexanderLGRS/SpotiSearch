@@ -37,24 +37,23 @@ export default function Home() {
             })
                 .then(response => response.json())
                 .then(data => {
-                    console.log(data.tracks.items[0].preview_url);
                     setSongsList(data.tracks.items)
-                    setSearchState(true)
                     if (data.tracks.items.length === 0) {
                         Swal.fire({
                             title: 'There are no matches ',
                             icon: 'info',
                             focusConfirm: true,
                             confirmButtonText:
-                                'OK',
+                            'OK',
                             confirmButtonAriaLabel: 'Thumbs up, great!',
                         })
                         setSearchState(false)
                     }
+                    setSearchState(true)
                 })
                 .catch((error) => {
                     Swal.fire({
-                        title: error,
+                        title: 'Error',
                         icon: 'error',
                         focusConfirm: true,
                         confirmButtonText:
@@ -72,7 +71,6 @@ export default function Home() {
         setPageNumber(pageNumber - 19)
     }
     const onSelectSongHandler = (data) => {
-        console.log(data);
         setVisibility('')
         setSelectedCover(data.cover)
         setSelectedTitle(data.title)

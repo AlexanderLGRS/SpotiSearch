@@ -15,5 +15,6 @@
 body {
     background-image: url("./Assets/Background2.jpg");
     background-position: right;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }

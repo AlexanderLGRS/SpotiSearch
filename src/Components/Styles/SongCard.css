@@ -4,6 +4,7 @@
     background-color: transparent;
     margin: 7px auto;
     padding: 3px;
+    cursor: pointer;
 }
 
 .songCard--info {

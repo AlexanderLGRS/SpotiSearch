@@ -20,6 +20,7 @@
 .form--input {
     font-family: var(--principal-font);
     font-size: 20px;
+    text-align: center;
     width: 80%;
     display: block;
     margin: 0 auto;
@@ -41,4 +42,11 @@
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+}
+
+@media only screen and (min-width: 700px) {
+    .form {
+        width: 60%;
+        height: 40vh;
+    }
 }

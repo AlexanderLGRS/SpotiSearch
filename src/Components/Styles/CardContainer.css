@@ -5,3 +5,10 @@
     align-items: center;
     background-color: #12121283;
 }
+
+@media only screen and (min-width: 700px) {
+    .cardContainer {
+        width: 50%;
+        margin: 0 auto;
+    }
+}

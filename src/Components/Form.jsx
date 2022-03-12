@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import './Styles/Form.css'
 
-
-
 export default function Form(props) {
     const [term, setTerm] = useState('')
     const termChangeHandler = (event) => {
